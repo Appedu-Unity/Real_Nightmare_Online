@@ -55,7 +55,7 @@ public class FieldOfview : MonoBehaviour
             }
             vertices[vertexIndex] = vertex;
 
-            if (i > 0)  //
+            if (i > 0)  
             {
                 triangles[triangleIndex + 0] = 0;
                 triangles[triangleIndex + 1] = triangleIndex - 1;
